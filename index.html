@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="logo">FIT<b>NESS</b></div>
+        <div id="openNav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="navbar">
+            <i class="fas fa-times" id="closeNav"></i>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div id="pagination">
+            <div id="page1" class="paginationBtns activePagination">1</div>
+            <div id="page2" class="paginationBtns">2</div>
+            <div id="page3" class="paginationBtns">3</div>
+        </div>
+        <div id="allPages">
+            <!-- Home Page -->
+            <div id="home">
+                <div id="content">
+                    <p>WORLD BEST</p>
+                    <h2>FIT<b>NESS</b></h2>
+                    <p>NO PAIN... NO GAIN</p>
+                    <button>BECOME MEMBER</button>
+                </div>
+                <div id="text">HEALTH</div>
+                <div id="sideImg">
+                    <img src="assets/fitness.png" alt="">
+                </div>
+                <div id="socialLinks">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=/accounts/activity/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <!-- About Page -->
+            <div id="about">
+                <div id="aboutContent">
+                    <div id="image">
+                        <img src="assets/fitness.jpg" alt="">
+                    </div>
+                    <div id="contentText">
+                        <h2>About <b>Fitness</b></h2>
+                        <p>Welcome To The <b>Fitness Club</b></p>
+                        <div id="line"></div>
+                         <p>Fitness is defined as the quality or state of being fit and healthy.
+                           around 1950, perhaps consistent with the Industrial Revolution and the treatise of World War II, the term "fitness" increased in western vernacular by a factor of ten.
+                           The modern definition of fitness describes either a person or machine's ability to perform a specific function or a holistic definition of human adaptability to cope with various situations. 
+                           This has led to an interrelation of human fitness and physical attractiveness that has mobilized global fitness and fitness equipment industries. 
+                           Regarding specific function, fitness is attributed to persons who possess significant aerobic or anaerobic ability (i.e., endurance or strength). 
+                           A well-rounded fitness program improves a person in all aspects of fitness compared to practicing only one, such as only cardio/respiratory or only weight training.</p>
+                    </div>
+                </div>
+                <div id="footer">
+                        <p><b>Code Now</b> © All Rights Reserved.</p>
+                    </div>
+            </div>
+            <!-- Contact Page -->
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <div id="form">
+                    <input type="text" name="f_name" class="name" placeholder="First Name">
+                    <input type="text" name="l_name" class="name" placeholder="Last Name"><br>
+                    <input type="text" name="E_mail" id="email" placeholder="someone@xyz.com"><br>
+                    <textarea name="message" id="message" placeholder="Enter Your Message Here."></textarea><br>
+                    <input type="submit" value="Send Now" id="send">
+                </div>
+                <div id="footer">
+                        <p><b>Code Now</b> © All Rights Reserved.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
